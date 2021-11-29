@@ -1,0 +1,43 @@
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+  font-size: 20px;
+
+  .img-container {
+    height: 100px;
+    width: 23%;
+
+    img {
+      width: 80%;
+      height: 100%;
+
+      border-radius: 15px;
+    }
+  }
+
+  .description,
+  .price {
+    width: 23%;
+  }
+
+  .quantity {
+    width: 23%;
+    display: flex;
+
+    .add-item,
+    .remove-item {
+      cursor: pointer;
+    }
+
+    .value {
+      margin: 0px 10px;
+    }
+  }
+
+  .remove {
+    width: 8%;
+    cursor: pointer;
+  }
+}
